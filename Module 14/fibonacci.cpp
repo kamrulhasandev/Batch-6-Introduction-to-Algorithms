@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std;    // O(2^N)
 
 int fibo(int n)
 {
@@ -10,6 +10,8 @@ int fibo(int n)
 
 int main()
 {
-    cout << fibo(5);
+    int n;
+    cin >> n;
+    cout << fibo(n);
     return 0;
 }
